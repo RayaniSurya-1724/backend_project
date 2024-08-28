@@ -9,6 +9,10 @@ app.get('/',(req,res)=>{
     res.render("index");
 });
 
+app.get('/about',(req,res)=>{
+    res.send('heelo');
+});
+
 app.listen(3000,()=>{
     console.log("it is runni");
 })
